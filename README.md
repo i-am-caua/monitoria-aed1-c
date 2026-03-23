@@ -1,6 +1,6 @@
 # 📚 Exercícios de Monitoria — AED 1 | Estruturas de Repetição em C
 
-> **Monitor:** Cauã · **Disciplina:** Algoritmos e Estruturas de Dados 1 (AED 1) · **Instituição:** IF Goiano — Campus Iporá
+> **Monitores:** Cauã e Kaik · **Disciplina:** Algoritmos e Estruturas de Dados 1 (AED 1) · **Instituição:** IF Goiano — Campus Iporá
 
 Repositório com exercícios de programação em **linguagem C** voltados para prática de **estruturas de repetição** (`while` e `for`), seguindo o padrão de submissão do **[CodeBench](https://codebench.icomp.ufam.edu.br/)** — juiz online utilizado na disciplina.
 
@@ -145,7 +145,9 @@ Cada pasta contém:
 
 ## 🎓 Contexto
 
-Exercícios desenvolvidos para **monitoria** da disciplina de **Algoritmos e Estruturas de Dados 1 (AED 1)** do curso de Ciência da Computação do **Instituto Federal Goiano (IF Goiano) — Campus Iporá**, ministrados pelo monitor Cauã. O sistema **CodeBench** é utilizado como plataforma de avaliação automatizada.
+Exercícios desenvolvidos para a **monitoria** da disciplina de **Algoritmos e Estruturas de Dados 1 (AED 1)** do curso de Ciência da Computação do **Instituto Federal Goiano (IF Goiano) — Campus Iporá**, ministrada pelos monitores Cauã e Kaik. O sistema **CodeBench** é utilizado como plataforma de avaliação automatizada. 
+
+Todo o conteúdo deste repositório — incluindo a implementação dos exercícios, a elaboração das sugestões de enunciados e a criação dos casos de teste rigorosos — foi gerado por IA e minuciosamente revisado e validado pelo monitor Cauã.
 
 ---
 
