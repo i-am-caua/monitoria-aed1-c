@@ -1,0 +1,843 @@
+================================================================
+EXERCÍCIO 1 — Somatório até negativo
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+7
+5
+2
+-1
+Saída:
+Somatório final = 14
+
+Caso de Teste #2 (primeiro número já é negativo)
+Entrada:
+-5
+Saída:
+Somatório final = 0
+
+Caso de Teste #3 (um único número válido)
+Entrada:
+10
+-1
+Saída:
+Somatório final = 10
+
+Caso de Teste #4 (números grandes)
+Entrada:
+100
+200
+300
+-3
+Saída:
+Somatório final = 600
+
+
+================================================================
+EXERCÍCIO 2 — Contagem regressiva com validação
+================================================================
+
+Caso de Teste #1 (entradas inválidas depois válida)
+Entrada:
+0
+-3
+5
+Saída:
+Valor inválido, tente novamente.
+Valor inválido, tente novamente.
+5 4 3 2 1
+
+Caso de Teste #2 (entrada válida direto)
+Entrada:
+3
+Saída:
+3 2 1
+
+Caso de Teste #3 (entrada = 1)
+Entrada:
+1
+Saída:
+1
+
+Caso de Teste #4 (vários inválidos)
+Entrada:
+-10
+0
+-1
+7
+Saída:
+Valor inválido, tente novamente.
+Valor inválido, tente novamente.
+Valor inválido, tente novamente.
+7 6 5 4 3 2 1
+
+
+================================================================
+EXERCÍCIO 3 — Pares entre dois valores
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+2
+10
+Saída:
+2 4 6 8 10 
+
+Caso de Teste #2 (inicio >= fim — erro)
+Entrada:
+10
+2
+Saída:
+Erro! inicio >= final.
+
+Caso de Teste #3 (inicio == fim — erro)
+Entrada:
+5
+5
+Saída:
+Erro! inicio >= final.
+
+Caso de Teste #4 (inicio ímpar)
+Entrada:
+3
+11
+Saída:
+4 6 8 10 
+
+Caso de Teste #5 (intervalo com um único par)
+Entrada:
+3
+5
+Saída:
+4 
+
+
+================================================================
+EXERCÍCIO 4 — Menores / maiores de idade
+================================================================
+
+Caso de Teste #1 (mistura de idades)
+Entrada:
+12
+19
+16
+29
+999
+Saída:
+Menores de idade: 2
+Maiores ou iguais a 18: 2
+
+Caso de Teste #2 (todos menores)
+Entrada:
+5
+10
+17
+999
+Saída:
+Menores de idade: 3
+Maiores ou iguais a 18: 0
+
+Caso de Teste #3 (todos maiores)
+Entrada:
+18
+25
+60
+999
+Saída:
+Menores de idade: 0
+Maiores ou iguais a 18: 3
+
+Caso de Teste #4 (exatamente 18 = maior)
+Entrada:
+18
+999
+Saída:
+Menores de idade: 0
+Maiores ou iguais a 18: 1
+
+Caso de Teste #5 (direto 999, nenhuma pessoa)
+Entrada:
+999
+Saída:
+Menores de idade: 0
+Maiores ou iguais a 18: 0
+
+
+================================================================
+EXERCÍCIO 5 — Vendas acima de 100
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+120
+30
+250
+0
+Saída:
+Quantidade de vendas acima de 100 reais: 2
+
+Caso de Teste #2 (nenhuma acima de 100)
+Entrada:
+50
+70
+99.99
+0
+Saída:
+Quantidade de vendas acima de 100 reais: 0
+
+Caso de Teste #3 (todas acima de 100)
+Entrada:
+150
+200
+300
+0
+Saída:
+Quantidade de vendas acima de 100 reais: 3
+
+Caso de Teste #4 (exatamente 100 — NÃO conta)
+Entrada:
+100
+0
+Saída:
+Quantidade de vendas acima de 100 reais: 0
+
+Caso de Teste #5 (direto 0, nenhuma venda)
+Entrada:
+0
+Saída:
+Quantidade de vendas acima de 100 reais: 0
+
+
+================================================================
+EXERCÍCIO 6 — Maior e menor número
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+5
+10
+3
+-1
+Saída:
+O maior número digitado foi 10.
+O menor número digitado foi 3.
+
+Caso de Teste #2 (todos iguais)
+Entrada:
+7
+7
+7
+-1
+Saída:
+O maior número digitado foi 7.
+O menor número digitado foi 7.
+
+Caso de Teste #3 (um único número)
+Entrada:
+42
+-1
+Saída:
+O maior número digitado foi 42.
+O menor número digitado foi 42.
+
+Caso de Teste #4 (ordem crescente)
+Entrada:
+1
+2
+3
+4
+5
+-1
+Saída:
+O maior número digitado foi 5.
+O menor número digitado foi 1.
+
+Caso de Teste #5 (ordem decrescente)
+Entrada:
+100
+50
+25
+10
+-1
+Saída:
+O maior número digitado foi 100.
+O menor número digitado foi 10.
+
+
+================================================================
+EXERCÍCIO 7 — Soma dos ímpares de 1 a 1000
+================================================================
+
+Caso de Teste #1 (sem entrada — resultado fixo)
+Entrada:
+(nenhuma)
+Saída:
+Soma dos ímpares de 1 a 1000 = 250000
+
+
+================================================================
+EXERCÍCIO 8 — Senha numérica
+================================================================
+
+Caso de Teste #1 (acerta de primeira)
+Entrada:
+1234
+Saída:
+Acesso Permitido.
+
+Caso de Teste #2 (erra duas vezes)
+Entrada:
+1111
+4321
+1234
+Saída:
+Senha incorreta.
+Senha incorreta.
+Acesso Permitido.
+
+Caso de Teste #3 (vários erros)
+Entrada:
+0
+9999
+1111
+5678
+1234
+Saída:
+Senha incorreta.
+Senha incorreta.
+Senha incorreta.
+Senha incorreta.
+Acesso Permitido.
+
+
+================================================================
+EXERCÍCIO 9 — Divisores de um número
+================================================================
+
+Caso de Teste #1 (número válido direto)
+Entrada:
+10
+Saída:
+Divisores de 10: 1, 2, 5, 10
+
+Caso de Teste #2 (inválido depois válido)
+Entrada:
+-2
+12
+Saída:
+Número inválido, tente novamente.
+Divisores de 12: 1, 2, 3, 4, 6, 12
+
+Caso de Teste #3 (número primo)
+Entrada:
+13
+Saída:
+Divisores de 13: 1, 13
+
+Caso de Teste #4 (número 1)
+Entrada:
+1
+Saída:
+Divisores de 1: 1
+
+Caso de Teste #5 (vários inválidos)
+Entrada:
+0
+-5
+-1
+6
+Saída:
+Número inválido, tente novamente.
+Número inválido, tente novamente.
+Número inválido, tente novamente.
+Divisores de 6: 1, 2, 3, 6
+
+
+================================================================
+EXERCÍCIO 10 — Soma até ultrapassar 100
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+30
+50
+25
+Saída:
+Soma parcial = 30
+Soma parcial = 80
+Soma parcial = 105
+Limite ultrapassado! Soma final = 105
+
+Caso de Teste #2 (ultrapassa de primeira)
+Entrada:
+150
+Saída:
+Soma parcial = 150
+Limite ultrapassado! Soma final = 150
+
+Caso de Teste #3 (chega em 100 exato, precisa mais um)
+Entrada:
+50
+50
+1
+Saída:
+Soma parcial = 50
+Soma parcial = 100
+Soma parcial = 101
+Limite ultrapassado! Soma final = 101
+
+Caso de Teste #4 (valores pequenos)
+Entrada:
+10
+20
+30
+20
+25
+Saída:
+Soma parcial = 10
+Soma parcial = 30
+Soma parcial = 60
+Soma parcial = 80
+Soma parcial = 105
+Limite ultrapassado! Soma final = 105
+
+
+================================================================
+EXERCÍCIO 11 — Votação de candidatos
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+2
+3
+3
+1
+0
+Saída:
+Candidato 1: 1 voto
+Candidato 2: 1 voto
+Candidato 3: 2 votos
+Vencedor = Candidato 3.
+
+Caso de Teste #2 (todos votam no candidato 1)
+Entrada:
+1
+1
+1
+0
+Saída:
+Candidato 1: 3 votos
+Candidato 2: 0 votos
+Candidato 3: 0 votos
+Vencedor = Candidato 1.
+
+Caso de Teste #3 (empate entre dois)
+Entrada:
+1
+2
+0
+Saída:
+Candidato 1: 1 voto
+Candidato 2: 1 voto
+Candidato 3: 0 votos
+Vencedor = Candidato 1.
+
+Caso de Teste #4 (um único voto)
+Entrada:
+3
+0
+Saída:
+Candidato 1: 0 votos
+Candidato 2: 0 votos
+Candidato 3: 1 voto
+Vencedor = Candidato 3.
+
+Caso de Teste #5 (nenhum voto)
+Entrada:
+0
+Saída:
+Candidato 1: 0 votos
+Candidato 2: 0 votos
+Candidato 3: 0 votos
+Vencedor = Candidato 1.
+
+
+================================================================
+EXERCÍCIO 12 — Média de valores reais
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+10.5
+7.0
+12.3
+-999
+Saída:
+Média = 9.93
+
+Caso de Teste #2 (um único valor)
+Entrada:
+8.0
+-999
+Saída:
+Média = 8.00
+
+Caso de Teste #3 (valores inteiros)
+Entrada:
+10
+20
+30
+-999
+Saída:
+Média = 20.00
+
+
+================================================================
+EXERCÍCIO 13 — Múltiplos de 3
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+6
+10
+3
+999
+Saída:
+Quantidade de múltiplos de 3 lidos: 2
+
+Caso de Teste #2 (nenhum múltiplo de 3)
+Entrada:
+1
+2
+4
+5
+999
+Saída:
+Quantidade de múltiplos de 3 lidos: 0
+
+Caso de Teste #3 (todos múltiplos de 3)
+Entrada:
+3
+6
+9
+999
+Saída:
+Quantidade de múltiplos de 3 lidos: 3
+
+Caso de Teste #4 (direto 999)
+Entrada:
+999
+Saída:
+Quantidade de múltiplos de 3 lidos: 0
+
+
+================================================================
+EXERCÍCIO 14 — Tabuada de adição
+================================================================
+
+Caso de Teste #1 (inválido depois válido)
+Entrada:
+0
+3
+Saída:
+Número inválido, tente novamente.
+Tabuada de adição do 3:
+3 + 1 = 4
+3 + 2 = 5
+3 + 3 = 6
+3 + 4 = 7
+3 + 5 = 8
+3 + 6 = 9
+3 + 7 = 10
+3 + 8 = 11
+3 + 9 = 12
+3 + 10 = 13
+
+Caso de Teste #2 (válido direto)
+Entrada:
+5
+Saída:
+Tabuada de adição do 5:
+5 + 1 = 6
+5 + 2 = 7
+5 + 3 = 8
+5 + 4 = 9
+5 + 5 = 10
+5 + 6 = 11
+5 + 7 = 12
+5 + 8 = 13
+5 + 9 = 14
+5 + 10 = 15
+
+Caso de Teste #3 (limite inferior)
+Entrada:
+1
+Saída:
+Tabuada de adição do 1:
+1 + 1 = 2
+1 + 2 = 3
+1 + 3 = 4
+1 + 4 = 5
+1 + 5 = 6
+1 + 6 = 7
+1 + 7 = 8
+1 + 8 = 9
+1 + 9 = 10
+1 + 10 = 11
+
+Caso de Teste #4 (limite superior)
+Entrada:
+10
+Saída:
+Tabuada de adição do 10:
+10 + 1 = 11
+10 + 2 = 12
+10 + 3 = 13
+10 + 4 = 14
+10 + 5 = 15
+10 + 6 = 16
+10 + 7 = 17
+10 + 8 = 18
+10 + 9 = 19
+10 + 10 = 20
+
+Caso de Teste #5 (vários inválidos)
+Entrada:
+-1
+11
+0
+7
+Saída:
+Número inválido, tente novamente.
+Número inválido, tente novamente.
+Número inválido, tente novamente.
+Tabuada de adição do 7:
+7 + 1 = 8
+7 + 2 = 9
+7 + 3 = 10
+7 + 4 = 11
+7 + 5 = 12
+7 + 6 = 13
+7 + 7 = 14
+7 + 8 = 15
+7 + 9 = 16
+7 + 10 = 17
+
+
+================================================================
+EXERCÍCIO 15 — Maior e menor nota
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+5
+10
+7
+11
+Saída:
+Maior nota: 10
+Menor nota: 5
+
+Caso de Teste #2 (todas notas iguais)
+Entrada:
+8
+8
+8
+11
+Saída:
+Maior nota: 8
+Menor nota: 8
+
+Caso de Teste #3 (uma única nota)
+Entrada:
+6
+11
+Saída:
+Maior nota: 6
+Menor nota: 6
+
+Caso de Teste #4 (notas extremas)
+Entrada:
+0
+10
+11
+Saída:
+Maior nota: 10
+Menor nota: 0
+
+
+================================================================
+EXERCÍCIO 16 — Pares e ímpares
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+2
+7
+14
+999
+Saída:
+Pares: 2
+Ímpares: 1
+
+Caso de Teste #2 (todos pares)
+Entrada:
+2
+4
+6
+999
+Saída:
+Pares: 3
+Ímpares: 0
+
+Caso de Teste #3 (todos ímpares)
+Entrada:
+1
+3
+5
+999
+Saída:
+Pares: 0
+Ímpares: 3
+
+Caso de Teste #4 (direto 999)
+Entrada:
+999
+Saída:
+Pares: 0
+Ímpares: 0
+
+Caso de Teste #5 (zero é par)
+Entrada:
+0
+999
+Saída:
+Pares: 1
+Ímpares: 0
+
+
+================================================================
+EXERCÍCIO 17 — Divisíveis por 4 no intervalo
+================================================================
+
+Caso de Teste #1 (uma rodada, encerra)
+Entrada:
+5
+16
+N
+Saída:
+Números no intervalo: 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+Divisíveis por 4: 8, 12, 16 (total de 3)
+
+Caso de Teste #2 (duas rodadas)
+Entrada:
+1
+10
+S
+20
+30
+N
+Saída:
+Números no intervalo: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Divisíveis por 4: 4, 8 (total de 2)
+Números no intervalo: 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+Divisíveis por 4: 20, 24, 28 (total de 3)
+
+Caso de Teste #3 (sem divisíveis por 4)
+Entrada:
+1
+3
+N
+Saída:
+Números no intervalo: 1, 2, 3
+Divisíveis por 4:  (total de 0)
+
+
+================================================================
+EXERCÍCIO 18 — Série harmônica
+================================================================
+
+Caso de Teste #1 (n = 5)
+Entrada:
+5
+Saída:
+1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.28333 (aprox.)
+
+Caso de Teste #2 (n = 1)
+Entrada:
+1
+Saída:
+1/1 = 1.00000 (aprox.)
+
+Caso de Teste #3 (n = 10)
+Entrada:
+10
+Saída:
+1/1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + 1/9 + 1/10 = 2.92897 (aprox.)
+
+Caso de Teste #4 (n = 3)
+Entrada:
+3
+Saída:
+1/1 + 1/2 + 1/3 = 1.83333 (aprox.)
+
+
+================================================================
+EXERCÍCIO 19 — Números terminados em 5
+================================================================
+
+Caso de Teste #1 (caso normal)
+Entrada:
+15
+25
+13
+0
+Saída:
+Quantidade de números terminados em 5: 2
+
+Caso de Teste #2 (nenhum terminado em 5)
+Entrada:
+10
+22
+33
+0
+Saída:
+Quantidade de números terminados em 5: 0
+
+Caso de Teste #3 (todos terminados em 5)
+Entrada:
+5
+15
+25
+35
+0
+Saída:
+Quantidade de números terminados em 5: 4
+
+Caso de Teste #4 (negativos terminados em 5)
+Entrada:
+-15
+-25
+10
+0
+Saída:
+Quantidade de números terminados em 5: 2
+
+Caso de Teste #5 (direto 0)
+Entrada:
+0
+Saída:
+Quantidade de números terminados em 5: 0
+
+
+================================================================
+EXERCÍCIO 20 — Números perfeitos (1 a 10000)
+================================================================
+
+Caso de Teste #1 (sem entrada — resultado fixo)
+Entrada:
+(nenhuma)
+Saída:
+Números perfeitos entre 1 e 10000:
+6, 28, 496, 8128

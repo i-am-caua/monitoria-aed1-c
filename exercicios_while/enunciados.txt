@@ -1,0 +1,208 @@
+Exercício 1
+
+Faça um programa que some números inteiros digitados pelo usuário até que ele informe um número negativo. Em seguida, exiba o total da soma.
+Exemplo de possível execução:
+  7 5 2 -1
+  Somatório final = 14
+Utilize somente While.
+
+
+Exercício 2
+
+Faça um programa que receba um número inteiro positivo e imprima a contagem regressiva desse valor até 1. Se o usuário digitar um valor negativo ou zero, solicite novamente até que seja um valor adequado.
+(Caso o valor for inválido, printar "Valor inválido, tente novamente.\n")
+Exemplo de possível execução:
+  0 -3 5
+  Valor inválido, tente novamente.
+  Valor inválido, tente novamente.
+  5 4 3 2 1
+Utilize somente While.
+
+
+Exercício 3
+
+Faça um programa que exiba todos os números pares entre dois valores inteiros (inicio e fim) informados pelo usuário (considerar que inicio < fim). Pare o programa se, em algum momento, inicio >= fim.
+(Se o usuário informar inicio >= fim, printe "Erro! inicio >= final." e encerre o programa imediatamente.)
+Exemplo de possível execução:
+  2 10
+  2 4 6 8 10
+Utilize somente While.
+
+
+Exercício 4
+
+Faça um programa que leia a idade de várias pessoas até que seja digitada a idade 999 (condição de parada, não contabilizada). Ao final, exiba quantas pessoas são menores de idade (idade < 18) e quantas são maiores ou iguais a 18.
+Exemplo de possível execução:
+  15 28 17 40 999
+  Menores de idade: 2
+  Maiores ou iguais a 18: 2
+Utilize somente While.
+
+
+Exercício 5
+
+Faça um programa que leia o valor de vendas de diferentes produtos de uma loja. A leitura deve continuar até ser informado um valor igual a 0 (não contabilizado). Em seguida, calcule e exiba quantas vendas ultrapassaram R$ 100,00.
+Exemplo de possível execução:
+  120 30 250 0
+  Quantidade de vendas acima de 100 reais: 2
+Utilize somente While.
+
+
+Exercício 6
+
+Faça um programa que receba números inteiros e identifique qual foi o maior e o menor digitados. A leitura deve se repetir até o usuário digitar -1 (não contabilizado).
+Exemplo de possível execução:
+  5 10 3 -1
+  O maior número digitado foi 10.
+  O menor número digitado foi 3.
+Utilize somente While.
+
+
+Exercício 7
+
+Faça um programa que calcule e exiba a soma de todos os números ímpares entre 1 e 1000.
+Exemplo de possível execução:
+  Soma dos ímpares de 1 a 1000 = 250000
+Utilize somente While.
+
+
+Exercício 8
+
+Faça um programa que simule uma senha numérica: enquanto o usuário não digitar a sequência correta (1234), o sistema deve continuar pedindo a senha. Ao acertar, exiba "Acesso Permitido.".
+(Tentativas erradas devem exibir "Senha incorreta.")
+Exemplo de possível execução:
+  1111 4321 1234
+  Senha incorreta.
+  Senha incorreta.
+  Acesso Permitido.
+Utilize somente While.
+
+
+Exercício 9
+
+Faça um programa que imprima todos os divisores de um número inteiro positivo informado pelo usuário, repetindo a solicitação enquanto o número for inválido (menor ou igual a 0).
+(Caso inválido, printar "Número inválido, tente novamente.")
+Exemplo de possível execução:
+  10
+  Divisores de 10: 1, 2, 5, 10
+Utilize somente While.
+
+
+Exercício 10
+
+Faça um programa que some números até o resultado ultrapassar 100. A cada leitura, mostre o valor parcial da soma. Quando ultrapassar 100, exiba a soma final e encerre.
+Exemplo de possível execução:
+  30 50 25
+  Soma parcial = 30
+  Soma parcial = 80
+  Soma parcial = 105
+  Limite ultrapassado! Soma final = 105
+Utilize somente While.
+
+
+Exercício 11
+
+Faça um programa que simule a leitura de votos (1, 2 ou 3) para três candidatos. A condição de parada é o valor 0. Ao final, mostre quantos votos cada candidato recebeu e quem foi o vencedor.
+Exemplo de possível execução:
+  2 3 3 1 0
+  Candidato 1: 1 voto
+  Candidato 2: 1 voto
+  Candidato 3: 2 votos
+  Vencedor = Candidato 3.
+Utilize somente While.
+
+
+Exercício 12
+
+Faça um programa que calcule a média de diversos valores reais informados pelo usuário. A leitura deve encerrar quando o valor -999 for digitado (não contabilizado). Exiba a média com duas casas decimais.
+Exemplo de possível execução:
+  10.5 7.0 12.3 -999
+  Média = 9.93
+Utilize somente While.
+
+
+Exercício 13
+
+Faça um programa que conte quantos números digitados pelo usuário são múltiplos de 3, parando somente quando for informado o número 999 (não contabilizado).
+Exemplo de possível execução:
+  6 10 3 999
+  Quantidade de múltiplos de 3 lidos: 2
+Utilize somente While.
+
+
+Exercício 14
+
+Faça um programa que gere a tabuada de adição de um número entre 1 e 10 informado pelo usuário. Se o número for inválido, solicite novamente.
+(Caso inválido, printar "Número inválido, tente novamente.")
+Exemplo de possível execução:
+  0 3
+  Número inválido, tente novamente.
+  Tabuada de adição do 3:
+  3 + 1 = 4
+  3 + 2 = 5
+  3 + 3 = 6
+  3 + 4 = 7
+  3 + 5 = 8
+  3 + 6 = 9
+  3 + 7 = 10
+  3 + 8 = 11
+  3 + 9 = 12
+  3 + 10 = 13
+Utilize somente While.
+
+
+Exercício 15
+
+Faça um programa que leia notas (0 a 10) de alunos até que seja digitada a nota 11 (condição de parada, não contabilizada). Ao fim, mostre a menor e a maior nota lida.
+Exemplo de possível execução:
+  5 10 7 11
+  Maior nota: 10
+  Menor nota: 5
+Utilize somente While.
+
+
+Exercício 16
+
+Faça um programa que leia inteiros e verifique quantos deles são pares e quantos são ímpares. Pare quando o usuário digitar 999 (não contabilizado).
+Exemplo de possível execução:
+  2 7 14 999
+  Pares: 2
+  Ímpares: 1
+Utilize somente While.
+
+
+Exercício 17
+
+Faça um programa que liste todos os números entre dois valores, contando e exibindo quantos deles são divisíveis por 4. Continue enquanto o usuário optar por prosseguir (resposta S continua, qualquer outra encerra).
+Exemplo de possível execução:
+  5 16 N
+  Números no intervalo: 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+  Divisíveis por 4: 8, 12, 16 (total de 3)
+Utilize somente While.
+
+
+Exercício 18
+
+Faça um programa que calcule a soma da série harmônica: 1/1 + 1/2 + 1/3 + ... + 1/n para um valor n inteiro positivo informado pelo usuário. Ao final, exiba o resultado com 5 casas decimais.
+Exemplo de possível execução:
+  5
+  1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.28333 (aprox.)
+Utilize somente While.
+
+
+Exercício 19
+
+Faça um programa que receba uma lista de números inteiros (um por vez) e, ao final, exiba quantos deles terminam em 5. O loop termina ao ler 0 (não contabilizado).
+Exemplo de possível execução:
+  15 25 13 0
+  Quantidade de números terminados em 5: 2
+Utilize somente While.
+
+
+Exercício 20
+
+Faça um programa que apresente todos os números perfeitos entre 1 e 10.000. Um número é perfeito se a soma de seus divisores próprios (excluindo ele mesmo) for igual ao próprio número. (Exemplo: 6 = 1 + 2 + 3)
+Exemplo de possível execução:
+  Números perfeitos entre 1 e 10000:
+  6, 28, 496, 8128
+Utilize somente While.
