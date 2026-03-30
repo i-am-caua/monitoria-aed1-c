@@ -8,9 +8,9 @@ int main() {
     for (int i = 0; i < 10; i++) {
         scanf("%d", &B[i]);
     }
-    
+
     int primeiraImpressao = 1;
-    
+
     for (int i = 0; i < 10; i++) {
         int jaImpresso = 0;
         for (int j = 0; j < i; j++) {
@@ -36,7 +36,7 @@ int main() {
             }
         }
     }
-    
+
     for (int i = 0; i < 10; i++) {
         int jaImpresso = 0;
         for (int j = 0; j < i; j++) {
@@ -62,6 +62,10 @@ int main() {
             }
         }
     }
-    
+
+    if (primeiraImpressao) {
+        printf("Nenhum elemento unico.");
+    }
+
     return 0;
 }

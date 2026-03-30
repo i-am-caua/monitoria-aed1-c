@@ -53,6 +53,7 @@ Exemplo de possível execução:
 Exercício 8
 
 Leia dois vetores de inteiros, cada um com 5 posições (cada vetor em uma linha). Calcule e imprima o produto escalar entre os dois vetores.
+
 Exemplo de possível execução:
   1 2 3 4 5
   5 4 3 2 1
@@ -60,7 +61,7 @@ Exemplo de possível execução:
 
 Exercício 9
 
-Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos comuns entre os dois vetores. Cada elemento comum deve ser exibido apenas uma vez.
+Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos comuns entre os dois vetores. Cada elemento comum deve ser exibido apenas uma vez. Caso nenhum elemento seja comum aos dois vetores, imprima: Nenhum elemento em comum.
 Exemplo de possível execução:
   1 2 3 4 5 6 7 8 9 10
   5 7 11 2 13 1 20 8 30 40
@@ -68,7 +69,7 @@ Exemplo de possível execução:
 
 Exercício 10
 
-Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos únicos entre os dois vetores. Cada elemento deve ser exibido apenas uma vez. Imprima primeiro os únicos do vetor A, depois os únicos do vetor B.
+Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos únicos entre os dois vetores. Cada elemento deve ser exibido apenas uma vez. Imprima primeiro os únicos do vetor A, depois os únicos do vetor B. Caso todos os elementos sejam iguais nos dois vetores, imprima: Nenhum elemento unico.
 Exemplo de possível execução:
   1 2 3 4 5 6 7 8 9 10
   5 7 11 2 13 1 20 8 30 40
