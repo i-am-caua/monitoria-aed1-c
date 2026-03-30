@@ -1,0 +1,197 @@
+================================================================
+EXERCÍCIO 1 — Cópia de Vetor
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 3 5 7 9
+Saída:
+1 3 5 7 9
+
+Caso de Teste #2 (valores negativos e zero)
+Entrada:
+-5 0 20 -100 42
+Saída:
+-5 0 20 -100 42
+
+================================================================
+EXERCÍCIO 2 — Dobro dos Valores
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 3 5 7 2 4 6 8
+Saída:
+2 6 10 14 4 8 12 16
+
+Caso de Teste #2 (com zeros e negativos)
+Entrada:
+0 -2 4 -5 10 -1 3 0
+Saída:
+0 -4 8 -10 20 -2 6 0
+
+================================================================
+EXERCÍCIO 3 — Vetor Inverso
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+Saída:
+10 9 8 7 6 5 4 3 2 1
+
+Caso de Teste #2 (todos iguais exceto extremos)
+Entrada:
+9 1 1 1 1 1 1 1 1 0
+Saída:
+0 1 1 1 1 1 1 1 1 9
+
+================================================================
+EXERCÍCIO 4 — Pares e Ímpares Agrupados
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+7 2 5 8 1 4 9 6 3 10
+Saída:
+2 8 4 6 10 7 5 1 9 3
+
+Caso de Teste #2 (somente ímpares)
+Entrada:
+1 3 5 7 9 11 13 15 17 19
+Saída:
+1 3 5 7 9 11 13 15 17 19
+
+Caso de Teste #3 (somente pares)
+Entrada:
+2 4 6 8 10 12 14 16 18 20
+Saída:
+2 4 6 8 10 12 14 16 18 20
+
+================================================================
+EXERCÍCIO 5 — Ordenação Crescente
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+9 4 7 1 3 8 2 6 5 0
+Saída:
+0 1 2 3 4 5 6 7 8 9
+
+Caso de Teste #2 (já ordenado)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+Saída:
+1 2 3 4 5 6 7 8 9 10
+
+Caso de Teste #3 (ordem decrescente)
+Entrada:
+10 9 8 7 6 5 4 3 2 1
+Saída:
+1 2 3 4 5 6 7 8 9 10
+
+================================================================
+EXERCÍCIO 6 — Maior, Menor e Média
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+5 8 2 9 4 7 1 6 3 0
+Saída:
+Indice do maior elemento: 3
+Indice do menor elemento: 9
+Media: 4.50
+
+Caso de Teste #2 (com negativos e repetidos)
+Entrada:
+-1 -5 10 10 -5 2 4 6 8 0
+Saída:
+Indice do maior elemento: 2
+Indice do menor elemento: 1
+Media: 2.90
+
+================================================================
+EXERCÍCIO 7 — Concatenação de Vetores
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 2 3 4 5
+6 7 8 9 10
+Saída:
+1 2 3 4 5 6 7 8 9 10
+
+Caso de Teste #2 (vetores iguais)
+Entrada:
+0 0 0 0 0
+0 0 0 0 0
+Saída:
+0 0 0 0 0 0 0 0 0 0
+
+================================================================
+EXERCÍCIO 8 — Produto Escalar
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 2 3 4 5
+5 4 3 2 1
+Saída:
+Produto escalar: 35
+
+Caso de Teste #2 (com zeros)
+Entrada:
+1 0 2 0 3
+0 4 0 5 0
+Saída:
+Produto escalar: 0
+
+================================================================
+EXERCÍCIO 9 — Elementos Comuns
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+5 7 11 2 13 1 20 8 30 40
+Saída:
+1 2 5 7 8
+
+Caso de Teste #2 (nenhum elemento comum)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+11 12 13 14 15 16 17 18 19 20
+Saída:
+
+
+Caso de Teste #3 (com repetidos em ambos)
+Entrada:
+1 2 2 3 4 5 5 5 6 7
+2 2 8 9 5 5 10 11 12 13
+Saída:
+2 5
+
+================================================================
+EXERCÍCIO 10 — Elementos Únicos
+================================================================
+
+Caso de Teste #1 (caso padrão normal)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+5 7 11 2 13 1 20 8 30 40
+Saída:
+3 4 6 9 10 11 13 20 30 40
+
+Caso de Teste #2 (todos iguais)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 8 9 10
+Saída:
+
+
+Caso de Teste #3 (nenhum igual)
+Entrada:
+1 2 3 4 5 6 7 8 9 10
+11 12 13 14 15 16 17 18 19 20
+Saída:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20

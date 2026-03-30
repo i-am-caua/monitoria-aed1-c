@@ -1,0 +1,75 @@
+Exercício 1
+
+Leia 5 números inteiros e armazene-os em um vetor A. Em seguida, copie todos os elementos de A para um vetor B. Ao final, imprima os elementos do vetor B separados por espaço.
+Exemplo de possível execução:
+  1 3 5 7 9
+  1 3 5 7 9
+
+Exercício 2
+
+Leia 8 números inteiros e armazene-os em um vetor A. Preencha um vetor B de tamanho 8 onde cada posição contém o dobro do valor correspondente em A. Ao final, imprima os elementos do vetor B separados por espaço.
+Exemplo de possível execução:
+  1 3 5 7 2 4 6 8
+  2 6 10 14 4 8 12 16
+
+Exercício 3
+
+Leia 10 números inteiros e armazene-os em um vetor A. Construa um vetor B de mesmo tamanho com os elementos de A em ordem inversa (A[0] -> B[9], A[1] -> B[8], ...). Ao final, imprima os elementos do vetor B separados por espaço.
+Exemplo de possível execução:
+  1 2 3 4 5 6 7 8 9 10
+  10 9 8 7 6 5 4 3 2 1
+
+Exercício 4
+
+Leia 10 números inteiros e armazene-os em um vetor. Usando um vetor auxiliar, reorganize os elementos de modo que os pares venham primeiro (na ordem original) e os ímpares por último (na ordem original). Ao final, imprima o vetor resultante separado por espaço.
+Exemplo de possível execução:
+  7 2 5 8 1 4 9 6 3 10
+  2 8 4 6 10 7 5 1 9 3
+
+Exercício 5
+
+Leia 10 números inteiros, armazene-os em um vetor A e ordene seus elementos em ordem crescente usando estruturas de repetição encadeadas. Ao final, imprima o vetor ordenado separado por espaço.
+Exemplo de possível execução:
+  9 4 7 1 3 8 2 6 5 0
+  0 1 2 3 4 5 6 7 8 9
+
+Exercício 6
+
+Leia 10 números inteiros e armazene-os em um vetor. Determine e imprima o índice do maior elemento, o índice do menor elemento e a média dos valores com 2 casas decimais.
+Exemplo de possível execução:
+  5 8 2 9 4 7 1 6 3 0
+  Indice do maior elemento: 3
+  Indice do menor elemento: 9
+  Media: 4.50
+
+Exercício 7
+
+Leia dois vetores de inteiros, cada um com 5 posições (cada vetor em uma linha). Construa um terceiro vetor de 10 posições com a concatenação dos dois. Ao final, imprima o terceiro vetor separado por espaço.
+Exemplo de possível execução:
+  1 2 3 4 5
+  6 7 8 9 10
+  1 2 3 4 5 6 7 8 9 10
+
+Exercício 8
+
+Leia dois vetores de inteiros, cada um com 5 posições (cada vetor em uma linha). Calcule e imprima o produto escalar entre os dois vetores.
+Exemplo de possível execução:
+  1 2 3 4 5
+  5 4 3 2 1
+  Produto escalar: 35
+
+Exercício 9
+
+Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos comuns entre os dois vetores. Cada elemento comum deve ser exibido apenas uma vez.
+Exemplo de possível execução:
+  1 2 3 4 5 6 7 8 9 10
+  5 7 11 2 13 1 20 8 30 40
+  1 2 5 7 8
+
+Exercício 10
+
+Leia dois vetores de inteiros, cada um com 10 posições (cada vetor em uma linha). Identifique e imprima os elementos únicos entre os dois vetores. Cada elemento deve ser exibido apenas uma vez. Imprima primeiro os únicos do vetor A, depois os únicos do vetor B.
+Exemplo de possível execução:
+  1 2 3 4 5 6 7 8 9 10
+  5 7 11 2 13 1 20 8 30 40
+  3 4 6 9 10 11 13 20 30 40
