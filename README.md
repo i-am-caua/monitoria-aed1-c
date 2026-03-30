@@ -1,8 +1,8 @@
-# 📚 Exercícios de Monitoria — AED 1 | Estruturas de Repetição em C
+# 📚 Exercícios de Monitoria — AED 1 | Estruturas de Repetição e Vetores em C
 
 > **Monitores:** Cauã e Kaik · **Disciplina:** Algoritmos e Estruturas de Dados 1 (AED 1) · **Instituição:** IF Goiano — Campus Iporá
 
-Repositório com exercícios de programação em **linguagem C** voltados para prática de **estruturas de repetição** (`while` e `for`), seguindo o padrão de submissão do **[CodeBench](https://codebench.icomp.ufam.edu.br/)** — juiz online utilizado na disciplina.
+Repositório com exercícios de programação em **linguagem C** voltados para prática de **estruturas de repetição** (`while` e `for`) e **Vetores (Arrays)**, seguindo o padrão de submissão do **[CodeBench](https://codebench.icomp.ufam.edu.br/)** — juiz online utilizado na disciplina.
 
 ---
 
@@ -20,12 +20,19 @@ excMonitoria/
 │   ├── casos_de_teste.txt     # Casos de teste (entrada + saída esperada)
 │   └── exc1.c ... exc20.c    # Soluções dos 20 exercícios
 │
-└── exercicios_for/            ← Exercícios usando somente for
-    ├── rulesFor.md             # Regras e adaptações para o CodeBench (for)
-    ├── EXC_FOR.md              # Enunciados detalhados dos 20 exercícios
+├── exercicios_for/            ← Exercícios usando somente for
+│   ├── rulesFor.md             # Regras e adaptações para o CodeBench (for)
+│   ├── EXC_FOR.md              # Enunciados detalhados dos 20 exercícios
+│   ├── enunciados.txt          # Enunciados em texto puro (para colar no CodeBench)
+│   ├── casos_de_teste.txt      # Casos de teste (entrada + saída esperada)
+│   └── exc1.c ... exc20.c     # Soluções dos 20 exercícios
+│
+└── exercicios_vetor/          ← Exercícios usando Vetores (Arrays)
+    ├── rulesVetor.md           # Regras e adaptações para o CodeBench (vetores)
+    ├── LISTA_VETOR.md          # Enunciados detalhados dos 10 exercícios
     ├── enunciados.txt          # Enunciados em texto puro (para colar no CodeBench)
     ├── casos_de_teste.txt      # Casos de teste (entrada + saída esperada)
-    └── exc1.c ... exc20.c     # Soluções dos 20 exercícios
+    └── exc1.c ... exc10.c     # Soluções dos 10 exercícios
 ```
 
 ---
@@ -98,6 +105,23 @@ O **CodeBench** é um juiz online de programação do Instituto de Computação 
 | exc18 | Contagem de primos lidos |
 | exc19 | Números de 1 a N + média |
 | exc20 | N primeiros ímpares + soma |
+
+### 🗃️ Lista Vetores (`exercicios_vetor/`)
+
+10 exercícios focados em **manipulação de vetores (arrays)** em C. Os laços de repetição são livres (`for`, `while` ou `do...while`), mas os dados **devem necessariamente ser armazenados e manipulados via vetores**.
+
+| Exercício | Descrição |
+|-----------|-----------|
+| exc1 | Cópia de vetor A para vetor B |
+| exc2 | Vetor B com o dobro dos valores de A |
+| exc3 | Vetor B com elementos de A em ordem inversa |
+| exc4 | Reagrupamento: pares primeiro, depois ímpares |
+| exc5 | Ordenação crescente com Bubble Sort |
+| exc6 | Índice do maior, menor e média do vetor |
+| exc7 | Concatenação de dois vetores |
+| exc8 | Produto escalar entre dois vetores |
+| exc9 | Elementos comuns entre dois vetores |
+| exc10 | Elementos únicos (diferença simétrica) entre dois vetores |
 
 ---
 
